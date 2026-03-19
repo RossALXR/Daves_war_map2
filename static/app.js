@@ -15,6 +15,7 @@ let sliderYearsEl = null;
 let sliderDragIndex = null;
 let sliderTicksEl = null;
 let sliderTickbarEl = null;
+let sliderCurrentEl = null;
 
 // Image modal state
 let modalOpen = false;
@@ -35,15 +36,26 @@ let geojsonLayerGroup = null;
 const STOP_ZOOM = 6;
 
 function buildDefaultPinIcon() {
-    // Match Leaflet's standard "blue pin" icon, but serve assets locally.
+    // Smaller red pin (SVG), with the standard Leaflet shadow for depth.
+    const color = '#c7372f';
+    const svg = `
+        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="36" viewBox="0 0 24 36">
+            <path d="M12 0C7.6 0 4 3.6 4 8c0 6.2 8 28 8 28s8-21.8 8-28c0-4.4-3.6-8-8-8z"
+                fill="${color}" stroke="#2b1f14" stroke-width="1" />
+            <circle cx="12" cy="8" r="3.6" fill="#f5f0e6" opacity="0.95" />
+        </svg>
+    `.trim();
+
+    const iconUrl = `data:image/svg+xml;charset=UTF-8,${encodeURIComponent(svg)}`;
+
     return L.icon({
-        iconRetinaUrl: 'static/vendor/leaflet/images/marker-icon-2x.png',
-        iconUrl: 'static/vendor/leaflet/images/marker-icon.png',
+        iconUrl,
         shadowUrl: 'static/vendor/leaflet/images/marker-shadow.png',
-        iconSize: [25, 41],
-        iconAnchor: [12, 41],
-        popupAnchor: [1, -34],
-        shadowSize: [41, 41]
+        iconSize: [18, 30],
+        iconAnchor: [9, 30],
+        popupAnchor: [1, -24],
+        shadowSize: [30, 30],
+        shadowAnchor: [9, 30]
     });
 }
 
@@ -83,6 +95,11 @@ function ensureTimeSliderDom() {
     sliderTicksEl = overlay.querySelector('#time-slider-ticks');
     sliderTickbarEl = overlay.querySelector('#time-slider-tickbar');
     sliderYearsEl = overlay.querySelector('#time-slider-years');
+
+    sliderCurrentEl = document.createElement('div');
+    sliderCurrentEl.id = 'time-slider-current';
+    sliderCurrentEl.textContent = '';
+    overlay.appendChild(sliderCurrentEl);
 
     sliderEl.addEventListener('input', () => {
         const idx = parseInt(sliderEl.value, 10) || 0;
@@ -127,9 +144,13 @@ function setupTimeSlider() {
     sliderYearsEl.innerHTML = '';
     if (sliderTicksEl) sliderTicksEl.innerHTML = '';
     if (sliderTickbarEl) sliderTickbarEl.innerHTML = '';
+
+    const yearByIndex = stops.map((s) => parseStopYear(s.subtitle));
+    const years = Array.from(new Set(yearByIndex.filter((y) => y !== null))).sort((a, b) => a - b);
+    if (!years.length) return;
+
     const firstIndexByYear = new Map();
-    stops.forEach((s, idx) => {
-        const y = parseStopYear(s.subtitle);
+    yearByIndex.forEach((y, idx) => {
         if (y === null) return;
         if (!firstIndexByYear.has(y)) firstIndexByYear.set(y, idx);
     });
@@ -156,9 +177,11 @@ function setupTimeSlider() {
         }
     }
 
-    Array.from(firstIndexByYear.entries())
-        .sort((a, b) => a[0] - b[0])
-        .forEach(([year, idx]) => {
+    // Year ticks + labels
+    years.forEach((year) => {
+        const idx = firstIndexByYear.get(year);
+        if (typeof idx !== 'number') return;
+
             const label = document.createElement('div');
             label.className = 'time-year';
             label.textContent = String(year);
@@ -180,7 +203,7 @@ function setupTimeSlider() {
                 opt.label = String(year);
                 sliderTicksEl.appendChild(opt);
             }
-        });
+    });
 }
 
 function addGeoJsonToMap(geojson, name) {
@@ -282,6 +305,7 @@ function showStop(index, opts) {
     document.getElementById('stop-title').innerText = stop.title || '';
     document.getElementById('stop-caption').innerText = stop.caption || '';
     document.getElementById('stop-description').innerText = stop.text || '';
+    document.getElementById('stop-date').innerText = stop.subtitle || '';
 
     const imgEl = document.getElementById('stop-image');
     if (stop.image) {
@@ -314,6 +338,19 @@ function showStop(index, opts) {
     lastShownIndex = index;
 
     if (sliderEl) sliderEl.value = index;
+    updateSliderCurrentLabel(index);
+}
+
+function updateSliderCurrentLabel(index) {
+    if (!sliderEl || !sliderCurrentEl) return;
+
+    const stop = stops[index];
+    const label = stop && stop.subtitle ? String(stop.subtitle) : '';
+
+    const denom = Math.max(1, stops.length - 1);
+    const pct = stops.length <= 1 ? 0 : (index / denom) * 100;
+    sliderCurrentEl.style.left = `${pct}%`;
+    sliderCurrentEl.textContent = label;
 }
 
 function fitOverviewToStops() {
