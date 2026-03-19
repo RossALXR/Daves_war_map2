@@ -1,13 +1,23 @@
 /* Minimal baseline styling (you can build up from here) */
 
+:root {
+    --paper: #f2e7d3;
+    --ink: #1d1a14;
+    --sepia: #d6c1a2;
+    --leather: #5b3a1e;
+    --tan: #b08a5a;
+    --muted: #6f5a3d;
+}
+
 html, body {
     height: 100%;
 }
 
 body {
     margin: 0;
-    font-family: system-ui, -apple-system, Segoe UI, Roboto, Arial, sans-serif;
-    color: #111;
+    font-family: "Courier New", Courier, monospace;
+    color: var(--ink);
+    background: var(--paper);
 }
 
 #container {
@@ -17,12 +27,15 @@ body {
 
 #map {
     flex: 2;
+    position: relative;
+    border-right: 2px solid var(--leather);
 }
 
 #story {
     flex: 1;
     padding: 16px;
-    border-left: 1px solid #ddd;
+    border-left: 1px solid rgba(0, 0, 0, 0.12);
+    background: var(--sepia);
     display: flex;
     flex-direction: column;
     gap: 12px;
@@ -39,6 +52,7 @@ body {
 #stop-title {
     margin: 0;
     font-size: 18px;
+    color: #2a1d10;
 }
 
 #navigation-buttons {
@@ -48,9 +62,10 @@ body {
 
 #navigation-buttons button {
     padding: 8px 10px;
-    border: 1px solid #ccc;
+    border: 1px solid rgba(0, 0, 0, 0.25);
     border-radius: 6px;
-    background: #f5f5f5;
+    background: rgba(255, 255, 255, 0.35);
+    color: #2a1d10;
     cursor: pointer;
 }
 
@@ -61,10 +76,14 @@ body {
 
 #stop-image {
     width: 100%;
-    max-height: 220px;
-    object-fit: cover;
+    max-height: min(35vh, 320px);
+    object-fit: contain;
+    background: rgba(255, 255, 255, 0.35);
     border-radius: 8px;
-    border: 1px solid #ddd;
+    border: 1px solid rgba(0, 0, 0, 0.18);
+    cursor: zoom-in;
+    /* Light "weathered photo" look without destroying contrast */
+    filter: grayscale(0.15) sepia(0.22) contrast(1.06);
 }
 
 #story-content {
@@ -75,9 +94,132 @@ body {
 #stop-caption {
     margin: 0 0 8px 0;
     font-weight: 600;
+    color: #2a1d10;
 }
 
 #stop-description {
     margin: 0;
     line-height: 1.5;
+}
+
+/* Time slider overlay (bottom of map) */
+#time-slider-overlay {
+    position: absolute;
+    left: 10px;
+    right: 10px;
+    bottom: 10px;
+    z-index: 2000;
+    padding: 6px 10px 6px 10px;
+    border-radius: 10px;
+    background: rgba(60, 40, 20, 0.70);
+    border: 1px solid rgba(0, 0, 0, 0.25);
+    color: #f4e9d6;
+}
+
+#time-slider {
+    width: 100%;
+}
+
+#time-slider-tickbar {
+    position: relative;
+    height: 6px;
+    margin-top: 2px;
+}
+
+.time-tick {
+    position: absolute;
+    top: 0;
+    width: 1px;
+    background: rgba(244, 233, 214, 0.85);
+    transform: translateX(-50%);
+}
+
+.time-tick.step {
+    height: 3px;
+    opacity: 0.25;
+}
+
+.time-tick.year {
+    height: 6px;
+    opacity: 0.75;
+}
+
+#time-slider-years {
+    position: relative;
+    height: 18px;
+    margin-top: 2px;
+    font-size: 11px;
+    color: #f4e9d6;
+}
+
+.time-year {
+    position: absolute;
+    top: 0;
+    transform: translateX(-50%);
+    white-space: nowrap;
+    pointer-events: none;
+}
+
+.time-year::before {
+    content: '';
+    position: absolute;
+    left: 50%;
+    top: -6px;
+    width: 1px;
+    height: 6px;
+    background: rgba(244, 233, 214, 0.85);
+    transform: translateX(-50%);
+}
+
+/* Image modal (click-to-zoom viewer) */
+#image-modal {
+    position: fixed;
+    inset: 0;
+    display: none;
+    align-items: center;
+    justify-content: center;
+    background: rgba(0, 0, 0, 0.85);
+    z-index: 10000;
+}
+
+#image-modal.open {
+    display: flex;
+}
+
+#image-modal-close {
+    position: absolute;
+    top: 12px;
+    right: 14px;
+    width: 40px;
+    height: 40px;
+    border-radius: 999px;
+    border: 1px solid rgba(255, 255, 255, 0.25);
+    background: rgba(0, 0, 0, 0.35);
+    color: white;
+    font-size: 26px;
+    line-height: 1;
+    cursor: pointer;
+}
+
+#image-modal-viewport {
+    width: 95vw;
+    height: 90vh;
+    overflow: hidden;
+    position: relative;
+    border-radius: 10px;
+    background: rgba(0, 0, 0, 0.25);
+}
+
+#image-modal-img {
+    position: absolute;
+    left: 0;
+    top: 0;
+    transform-origin: 0 0;
+    user-select: none;
+    -webkit-user-drag: none;
+    cursor: grab;
+}
+
+#image-modal-img.dragging {
+    cursor: grabbing;
 }
