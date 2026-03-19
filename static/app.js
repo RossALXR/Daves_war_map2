@@ -32,6 +32,7 @@ const modalViewportEl = document.getElementById('image-modal-viewport');
 const modalImgEl = document.getElementById('image-modal-img');
 const modalCloseBtn = document.getElementById('image-modal-close');
 let geojsonLayerGroup = null;
+const STOP_ZOOM = 6;
 
 function buildDefaultPinIcon() {
     // Match Leaflet's standard "blue pin" icon, but serve assets locally.
@@ -294,19 +295,17 @@ function showStop(index, opts) {
     }
 
     if (map) {
-        const onArrive = () => {
-            if (stop.marker) stop.marker.openPopup();
-        };
+        // Open immediately so the popup is visible as we pan toward the marker.
+        if (stop.marker) stop.marker.openPopup();
 
         if (skipMapMove) {
-            onArrive();
+            // Popup is already opened.
         } else {
             // First render: jump straight to the first stop (image 1 should show on refresh).
             if (lastShownIndex === null || !animate) {
-                map.setView(stop.coords, 8, { animate: false });
-                onArrive();
+                map.setView(stop.coords, STOP_ZOOM, { animate: false });
             } else {
-                animateHopTo(stop.coords, 8, onArrive);
+                animatePanTo(stop.coords, STOP_ZOOM);
             }
         }
     }
@@ -323,24 +322,15 @@ function fitOverviewToStops() {
     map.fitBounds(bounds, { padding: [30, 30], maxZoom: 6 });
 }
 
-function animateHopTo(latlng, zoomIn, onDone) {
-    // Two-phase move: quick zoom-out, then zoom-in to the next point.
+function animatePanTo(latlng, zoom) {
+    // Smooth pan/fly to the next point, keeping a more zoomed-out view.
     // Uses a token so rapid clicking doesn't stack animations.
     const myToken = ++transitionToken;
     map.stop();
 
-    const currentZoom = map.getZoom();
-    const zoomOut = Math.max(3, Math.min(currentZoom, zoomIn) - 2);
-
-    map.flyTo(map.getCenter(), zoomOut, { animate: true, duration: 0.35 });
+    map.flyTo(latlng, zoom, { animate: true, duration: 1.2 });
     map.once('moveend', () => {
         if (transitionToken !== myToken) return;
-
-        map.flyTo(latlng, zoomIn, { animate: true, duration: 0.55 });
-        map.once('moveend', () => {
-            if (transitionToken !== myToken) return;
-            if (typeof onDone === 'function') onDone();
-        });
     });
 }
 

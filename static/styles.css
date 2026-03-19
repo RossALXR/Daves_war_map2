@@ -26,13 +26,13 @@ body {
 }
 
 #map {
-    flex: 2;
+    flex: 1;
     position: relative;
     border-right: 2px solid var(--leather);
 }
 
 #story {
-    flex: 1;
+    flex: 1.15;
     padding: 16px;
     border-left: 1px solid rgba(0, 0, 0, 0.12);
     background: var(--sepia);
@@ -76,7 +76,7 @@ body {
 
 #stop-image {
     width: 100%;
-    max-height: min(35vh, 320px);
+    max-height: min(60vh, 520px);
     object-fit: contain;
     background: rgba(255, 255, 255, 0.35);
     border-radius: 8px;
