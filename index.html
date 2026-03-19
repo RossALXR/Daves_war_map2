@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Story Map</title>
+    <link rel="stylesheet" href="static/styles.css">
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css" />
+    <script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"></script>
+</head>
+<body>
+    <div id="container">
+        <div id="map"></div>
+        <div id="story">
+            <div id="story-header">
+                <h2 id="stop-title">Chapter Title</h2>
+                <div id="navigation-buttons">
+                    <button id="prev">&#8592; Previous</button>
+                    <button id="next">Next &#8594;</button>
+                </div>
+            </div>
+            <img id="stop-image" src="" alt="Stop Image" />
+            <div id="story-content">
+                <p id="stop-caption">Caption will appear here.</p>
+                <p id="stop-description">Narrative paragraphs will appear here.</p>
+            </div>
+        </div>
+    </div>
+    <script src="static/app.js"></script>
+</body>
+</html>
