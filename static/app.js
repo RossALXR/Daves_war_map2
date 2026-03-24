@@ -365,7 +365,22 @@ function animatePanTo(latlng, zoom) {
     const myToken = ++transitionToken;
     map.stop();
 
-    map.flyTo(latlng, zoom, { animate: true, duration: 1.2 });
+    const currentZoom = map.getZoom();
+    if (currentZoom === zoom) {
+        map.panTo(latlng, {
+            animate: true,
+            duration: 1.8,
+            easeLinearity: 0.35,
+            noMoveStart: true
+        });
+    } else {
+        map.flyTo(latlng, zoom, {
+            animate: true,
+            duration: 2.2,
+            easeLinearity: 0.35,
+            noMoveStart: true
+        });
+    }
     map.once('moveend', () => {
         if (transitionToken !== myToken) return;
     });
@@ -469,9 +484,34 @@ modalEl.addEventListener('click', (e) => {
     if (e.target === modalEl) closeImageModal();
 });
 
-document.addEventListener('keydown', (e) => {
+function shouldIgnoreKeyNav(target) {
+    if (!target) return false;
+    const tag = target.tagName;
+    if (tag === 'INPUT' || tag === 'TEXTAREA' || tag === 'SELECT') return true;
+    return !!target.isContentEditable;
+}
+
+window.addEventListener('keydown', (e) => {
     if (e.key === 'Escape') closeImageModal();
-});
+    if (modalOpen) return;
+    if (shouldIgnoreKeyNav(e.target)) return;
+
+    if (e.key === 'ArrowLeft') {
+        if (currentIndex > 0) {
+            currentIndex--;
+            showStop(currentIndex);
+        }
+        e.preventDefault();
+        e.stopPropagation();
+    } else if (e.key === 'ArrowRight') {
+        if (currentIndex < stops.length - 1) {
+            currentIndex++;
+            showStop(currentIndex);
+        }
+        e.preventDefault();
+        e.stopPropagation();
+    }
+}, { capture: true });
 
 // Wheel zoom within the viewport.
 modalViewportEl.addEventListener(

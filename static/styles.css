@@ -79,6 +79,14 @@ body {
     cursor: not-allowed;
 }
 
+#navigation-buttons button:focus-visible,
+#image-modal-close:focus-visible,
+#time-slider:focus-visible {
+    outline: 2px solid var(--leather);
+    outline-offset: 2px;
+    box-shadow: 0 0 0 3px rgba(255, 255, 255, 0.45);
+}
+
 #stop-image {
     width: 100%;
     max-height: min(60vh, 520px);
