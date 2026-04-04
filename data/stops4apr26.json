@@ -1,0 +1,566 @@
+[
+    {
+        "id": 2,
+        "title": "Pretoria",
+        "subtitle": "12-Jun-40",
+        "coords": [
+            -25.7467,
+            28.1881
+        ],
+        "text": "Dave\u2019s signed Oath of Attestation records his voluntary enlistment into full-time service with the Union Defence Force, where he swore allegiance to King George VI at the age of 23. Until that moment, he had been employed as a bus driver with the Pretoria City Council.",
+        "caption": "army cards",
+        "image": "images/2_Dave-Oath on Attestation.jpg"
+    },
+    {
+        "id": 4,
+        "title": "Durban",
+        "subtitle": "21-Apr-41",
+        "coords": [
+            -29.8689,
+            31.0617
+        ],
+        "text": "This is the SS Dempo in Liverpool Dock, England in March 1941, while being converted from a cruise liner to a troop carrier. Dave embarked on her at Durban, South Africa, on 21 April 1941,",
+        "caption": "army cards",
+        "image": "images/4_SS Dempo - Liverpool March 1941.jpg"
+    },
+    {
+        "id": 6,
+        "title": "Port Suez",
+        "subtitle": "5-Jun-41",
+        "coords": [
+            29.96785974,
+            32.55013641
+        ],
+        "text": "When they disembarked at Port Suez on 6 May 1941, each soldier was issued with a \u201cdog tag.\u201d This is the one Dave wore every day throughout his five years of service. It recorded his personal details and his wishes for burial, with \u201cW.E.S.\u201d indicating his faith as Wesleyan Methodist.",
+        "caption": "army cards",
+        "image": "images/6_Dog Tag - Dave 10.jpg"
+    },
+    {
+        "id": 8,
+        "title": "Cairo",
+        "subtitle": "1-Sep-41",
+        "coords": [
+            30.04400182,
+            31.23544934
+        ],
+        "text": "In Sep 1941 the 8th Army headquarters was established in Cairo, and Dave was assigned to the Eighth Army- This is his uniform Clasp ",
+        "caption": "8th Army Clasp",
+        "image": "images/8_8th Army Clasp.jpg"
+    },
+    {
+        "id": 10,
+        "title": "Alexandria",
+        "subtitle": "10-Sep-41",
+        "coords": [
+            31.20381932,
+            29.91504835
+        ],
+        "text": "During a short visit to Alexandria, before heading into battle Dave sent this photo to his mom. She noted on the back that she  \"received it from Alexandria on 22/11/41\" in Pretoria, South Africa",
+        "caption": "Photo to Mom",
+        "image": "images/10_Dave -Alexandria his mom received 22-11-1941.jpg"
+    },
+    {
+        "id": 12,
+        "title": "El Alemein",
+        "subtitle": "25-Nov-41",
+        "coords": [
+            30.84475347,
+            28.94164793
+        ],
+        "text": "The Operation Crusader uniform patches Dave wore during the build-up of supply lines and the winning of the first battle at El Alemain. The objective of the campaign was to retake Libya and relieve the besieged port of Tobruk from the Italian-German -Axis- forces under General Erwin Rommel. This objective was achieved by 25 Nov 1941.(The hand stitching of his uniform badges indicate that they were made in Egypt and worn in battle)",
+        "caption": "Crusader Badge",
+        "image": "images/12_Uniform Badges- Operation Crusader.jpg"
+    },
+    {
+        "id": 14,
+        "title": "Bir Hacheim",
+        "subtitle": "4-Feb-42",
+        "coords": [
+            31.601033,
+            23.475565
+        ],
+        "text": "The 8th Army advanced and re-grouped here to rest and re-stock supplies. Daves uniform badge with crossed rifles indicate that he was a trained infantryman (rifleman) serving in a front-line unit with the S A 1st infantry division of the 8th Army.",
+        "caption": "8th Army Clasp",
+        "image": "images/14_Muskets.jpg"
+    },
+    {
+        "id": 16,
+        "title": "Bir Hacheim",
+        "subtitle": "19-May-42",
+        "coords": [
+            31.601033,
+            23.475565
+        ],
+        "text": "Daves letter posted home to his mom via APO (Army Post Office) on 19/5/1942",
+        "caption": "letter to mom",
+        "image": "images/16_Letter to mom 19 May 1942.jpg"
+    },
+    {
+        "id": 18,
+        "title": "Gazala",
+        "subtitle": "30-Jun-42",
+        "coords": [
+            31.59204253,
+            23.48503074
+        ],
+        "text": "On 26 May 1942, the Battle of Gazala began. This time the Eighth Army was defeated. Tobruk fell, and 32,000 Allied troops were captured. The Eighth Army retreated eastward and by 30 June 1942, Rommel's Axis forces had pushed the 8th army back to El Alamein again. Here Allied troops are again offloading water to re-stock supplies",
+        "caption": "8th Army Clasp",
+        "image": "images/18_Solum Bay Offloading water for supply lines.jpg"
+    },
+    {
+        "id": 20,
+        "title": "El Alemein",
+        "subtitle": "11-Nov-42",
+        "coords": [
+            30.84180761,
+            28.94095283
+        ],
+        "text": "Months later, on 23 October 1942, the Second Battle of El Alamein began \u2014 the battle that would change everything and last until 11Nov 1942. Under the new command of Lieutenant Montgomery, the Eighth Army launched a massive offensive and won. Here Gen Jan Smuts visits the SA troops in their trademark \"Tin Hats\"",
+        "caption": "8th Army Clasp",
+        "image": "images/20_Smuts in Western Desert20-23 Nov 1942.jpg"
+    },
+    {
+        "id": 22,
+        "title": "",
+        "subtitle": "20-Nov-42",
+        "coords": [
+            31.3546,
+            27.237545
+        ],
+        "text": "Mursa Matruh:Following El Alamein, Axis forces retreated rapidly. The British Eighth Army reoccupied Mersa Matruh with only light resistance.",
+        "caption": "",
+        "image": "images/22_Tanks used by the allied troops in the retreat from Tobruk in 1941..jpg"
+    },
+    {
+        "id": 24,
+        "title": "",
+        "subtitle": "1-Dec-42",
+        "coords": [
+            31.652982,
+            25.904913
+        ],
+        "text": "Sidi Barrani : Small-scale but tactically important, this battle was  designed to slow the Allied advance and involvied land mines, artillery, and brief armoured clashes",
+        "caption": "",
+        "image": ""
+    },
+    {
+        "id": 26,
+        "title": "",
+        "subtitle": "20-Dec-42",
+        "coords": [
+            30.261986,
+            19.188893
+        ],
+        "text": "El Agheila: This was the first serious defensive stand after the retreat. Rommel attempted to delay the British advance. The British outflanked the position, forcing another withdrawal. Here Rommel is seen indtructing his troops in North Africa.",
+        "caption": "",
+        "image": "images/26_Erdwin Rommel in North Africa.jpg"
+    },
+    {
+        "id": 28,
+        "title": "",
+        "subtitle": "1-Mar-43",
+        "coords": [
+            33.340813,
+            10.496664
+        ],
+        "text": "Medenine:  A major turning point. Last Axis offensive in North Africa.  Rommel attempted to strike the British Eighth Army. The attack failed badly due to strong British anti-tank defenses\n",
+        "caption": "",
+        "image": ""
+    },
+    {
+        "id": 30,
+        "title": "el-Hammah",
+        "subtitle": "20-Mar-43",
+        "coords": [
+            33.887485,
+            9.795094
+        ],
+        "text": "On this date, Allied forces (primarily elements of the British Eighth Army) launched probing and preliminary attacks against Axis positions around El Hamma. This action was essentially a testing engagement, helping Montgomery assess the strength of the Mareth Line defences.",
+        "caption": "8th Army Clasp",
+        "image": ""
+    },
+    {
+        "id": 32,
+        "title": "W\u0101d\u012b al-\u02bfAk\u0101r\u012bt ",
+        "subtitle": "6-Apr-43",
+        "coords": [
+            34.112678,
+            9.982838
+        ],
+        "text": "After retreating from the Battle of the Mareth Line, Axis forces made their stand here. At W\u0101d\u012b al-\u02bfAk\u0101r\u012bt (often called the Battle of Akarit) Fighting was intense, especially on key ridges . Despite heavy resistance, Allied troops broke through the defensive line. Here German troops (recognised by their helmet shape) are seen struggling through sand and high winds",
+        "caption": "8th Army Clasp",
+        "image": "images/32_German Soldiers struggling against wind and sand.jpg"
+    },
+    {
+        "id": 34,
+        "title": "Enfidha",
+        "subtitle": "20-Apr-43",
+        "coords": [
+            36.133847,
+            10.378048
+        ],
+        "text": "This battle took place near the town of Enfidha. Despite determined attacks, Allied forces made limited progress and suffered significant casualties.\nThe battle became largely a stalemate, with heavy fighting continuing for several days.",
+        "caption": "8th Army Clasp",
+        "image": ""
+    },
+    {
+        "id": 36,
+        "title": "Medjerda",
+        "subtitle": "6-May-43",
+        "coords": [
+            37.06292,
+            10.068617
+        ],
+        "text": "The fighting occurred along the Medjerda River valley. The Allied forces broke through Axis defenses along the Medjerda. This advance contributed directly to the fall of Tunis on 7 May 1943.\nWithin days, all Axis forces in North Africa surrendered (around 13 May 1943).",
+        "caption": "8th Army Clasp",
+        "image": ""
+    },
+    {
+        "id": 38,
+        "title": "Tunis",
+        "subtitle": "15-May-43",
+        "coords": [
+            36.8065,
+            10.1815
+        ],
+        "text": "Journey back to Cairo: After the fall of Tunis in May 1943, the men of the 27th Road Construction Unit began the long return eastward toward Cairo;a journey that was as demanding as any campaign, though far less recorded.",
+        "caption": "27th Rd Con Unit",
+        "image": ""
+    },
+    {
+        "id": 40,
+        "title": "Sfax(nearGabes)",
+        "subtitle": "20-May-43",
+        "coords": [
+            34.7406,
+            10.7603
+        ],
+        "text": "Journey back to Cairo: The men marched through the heat of the day and the cold of the desert nights, often carrying their own gear when transport columns were stretched thin. Progress depended on fuel, serviceable vehicles, and the condition of the roads",
+        "caption": "27th Rd Con Unit",
+        "image": ""
+    },
+    {
+        "id": 42,
+        "title": "Gabes",
+        "subtitle": "24-May-43",
+        "coords": [
+            33.8815,
+            10.0982
+        ],
+        "text": "Journey back to Cairo:   Much of the route retraced the scarred coastline of North Africa, following the same desert roads they had helped to build and maintain during the advance",
+        "caption": "27th Rd Con Unit",
+        "image": ""
+    },
+    {
+        "id": 44,
+        "title": "Tripoli",
+        "subtitle": "27-May-43",
+        "coords": [
+            32.8872,
+            13.1913
+        ],
+        "text": "Journey back to Cairo: Passing back through Tripoli, Benghazi, and Tobruk, the journey became a slow unwinding of the campaign itself. What had once been a desperate westward push was now a weary return,",
+        "caption": "27th Rd Con Unit",
+        "image": ""
+    },
+    {
+        "id": 46,
+        "title": "El Agheila",
+        "subtitle": "30-May-43",
+        "coords": [
+            30.2467,
+            19.2047
+        ],
+        "text": "Journey back to Cairo:  They went back along the very roads they had once laboured to keep open under fire. ",
+        "caption": "27th Rd Con Unit",
+        "image": ""
+    },
+    {
+        "id": 48,
+        "title": "Benghazi",
+        "subtitle": "31-May-43",
+        "coords": [
+            32.1167,
+            20.0667
+        ],
+        "text": "Journey back to Cairo: The road marked by abandoned vehicles, shattered positions, and long stretches of silence broken only by and sand.",
+        "caption": "27th Rd Con Unit",
+        "image": ""
+    },
+    {
+        "id": 50,
+        "title": "Tobruk",
+        "subtitle": "10-Jun-43",
+        "coords": [
+            32.0836,
+            23.9764
+        ],
+        "text": "Journey back to Cairo: By truck where vehicles were available, and on foot when they were not, the unit moved in stages through a landscape still marked by war",
+        "caption": "27th Rd Con Unit",
+        "image": ""
+    },
+    {
+        "id": 54,
+        "title": "Mersa Matruh",
+        "subtitle": "18-Jun-43",
+        "coords": [
+            31.3543,
+            27.2373
+        ],
+        "text": "Journey back to Cairo: Water was rationed carefully, and halts were taken where wells or supply points could be found.",
+        "caption": "27th Rd Con Unit",
+        "image": ""
+    },
+    {
+        "id": 56,
+        "title": "Alexandria",
+        "subtitle": "23-Jun-43",
+        "coords": [
+            31.2001,
+            29.9187
+        ],
+        "text": "Journey back to Cairo: By the time they reached Alexandria and finally Cairo, the journey had become a test of stamina and discipline rather than combat",
+        "caption": "27th Rd Con Unit",
+        "image": ""
+    },
+    {
+        "id": 58,
+        "title": "Cairo",
+        "subtitle": "25-Jun-43",
+        "coords": [
+            30.0444,
+            31.2357
+        ],
+        "text": "For his service in the 8th Army Dave had earned this Africa Star",
+        "caption": "27th Rd Con Unit",
+        "image": "images/58_Africa Star.jpg"
+    },
+    {
+        "id": 60,
+        "title": "Khatatba",
+        "subtitle": "26-Jun-43",
+        "coords": [
+            30.525,
+            30.82
+        ],
+        "text": "For his service in Africa, Dave had earned this  Africa Service Medal",
+        "caption": "27th Rd Con Unit",
+        "image": "images/60_Dave- Africa Service Medal.jpg"
+    },
+    {
+        "id": 62,
+        "title": "Port Suez",
+        "subtitle": "12-Jul-43",
+        "coords": [
+            29.96785974,
+            32.55013641
+        ],
+        "text": "Dave embarked at Port Suez for Durban on The Home Exchange Program. During this leave he had his Photo taken at a Pretoria photographer - Wearing his Operation crusader uniform Badge",
+        "caption": "Army cards",
+        "image": "images/62_Dave -Scan.jpg"
+    },
+    {
+        "id": 64,
+        "title": "Port Suez",
+        "subtitle": "6-Nov-43",
+        "coords": [
+            29.96785974,
+            32.55013641
+        ],
+        "text": "On 6 November 1943 Dave disembarked from SS Duchess of Richmond (from Durban) after Home Leave, having stopped at Madagascar where Dave was able to get this 5Franc note and keep it as a souvenir",
+        "caption": "Army cards",
+        "image": "images/64_Madagascan Note.jpg"
+    },
+    {
+        "id": 66,
+        "title": "Cairo",
+        "subtitle": "16-Dec-43",
+        "coords": [
+            30.04400182,
+            31.23544934
+        ],
+        "text": "He was transferred to Citizen Military to prepare to leave for Italy, and he bought an Egypt keepsake",
+        "caption": "Army cards",
+        "image": "images/66_Egypt 1943.jpg"
+    },
+    {
+        "id": 68,
+        "title": "Helwan",
+        "subtitle": "1-Jan-44",
+        "coords": [
+            29.8434256,
+            31.330921
+        ],
+        "text": "Dave was admitted to Hospital No5 after Accidental Injury-possible motor bike accident. In June 1943 he requested a transfer to the South African Engineering Corps as a Sapper. This lowered his rank, but family stories suggest that it allowed him to become, an unofficial, a dispatch rider. Here is an example of the bikes that were used. The riders were expected to maintain and repair the bikes in all conditions",
+        "caption": "Army cards",
+        "image": "images/68_Dispatch Rider delivering a message.jpg"
+    },
+    {
+        "id": 70,
+        "title": "Alexandria",
+        "subtitle": "27-May-44",
+        "coords": [
+            31.20381932,
+            29.91504835
+        ],
+        "text": "Discharged from Hospital to Base and again prepared to leave for Italy",
+        "caption": "Army cards",
+        "image": ""
+    },
+    {
+        "id": 72,
+        "title": "Reggio de Calabria",
+        "subtitle": "1-Jun-44",
+        "coords": [
+            38.1106545,
+            15.64286765
+        ],
+        "text": "8th Army troops landed at this port from Alexandria, and so did Dave ( He had witnessed the Eruption of Mount Etna on his voyage) Because he had been in Hospital in Cairo when his unit went to Italy, he caught up with his fellow soldiers (with their trademark Tin Hats)for the first time in Sep 1944 near Rimini (Coriano)",
+        "caption": "8th Army Clasp",
+        "image": "images/72_SA Soldiers in Italy.jpg"
+    },
+    {
+        "id": 74,
+        "title": "Coriano",
+        "subtitle": "13-Sep-44",
+        "coords": [
+            43.962139,
+            12.60289
+        ],
+        "text": "The Battle of Coriano was a hard-fought engagement during the Allied advance through northern Italy, forming part of the larger offensive against the Gothic Line which had been defensively set up by the Germans where the area was sown with land mines, laced with barbed wire, and covered by carefully positioned artillery and machine-gun fire.",
+        "caption": "8th Army Clasp",
+        "image": "images/74_eighth-army-advance-British-tank-gun-River-Foglia-Italy-September-1944.webp"
+    },
+    {
+        "id": 76,
+        "title": "Emelia Romano Region",
+        "subtitle": "1-Mar-45",
+        "coords": [
+            44.51767399,
+            11.27713028
+        ],
+        "text": "The Allied Army Base was in the Emelia Romano Region where Allied soldiers prepared the pontoon bridge they used to cross the Po river (This picture is from an article in Dave's copy of the 8th Army Newspaper). Both side had to wait out the Italian winter between Oct 1944 and Mar 1945. ",
+        "caption": "Italy visit",
+        "image": "images/76_Po River is waiting for You 20.jpg"
+    },
+    {
+        "id": 78,
+        "title": "Po River at Ferara",
+        "subtitle": "28-Apr-45",
+        "coords": [
+            44.888187,
+            11.618976
+        ],
+        "text": "Dave kept this leaflet which was handed out to soldiers for encouragement to push accross the Po River. The Po River was the last major natural barrier in Italy. Allied engineers launched rapid assault crossings using boats and pontoon bridges.Crossing points were established near Ferrara and other sectors. Air superiority from the Allied Air Forces disrupted German withdrawal routes",
+        "caption": "Prpaganda leaflet",
+        "image": "images/78_Pontoon bridge over the Po River- from 8Army News.jpg"
+    },
+    {
+        "id": 80,
+        "title": "Venice",
+        "subtitle": "2-May-45",
+        "coords": [
+            45.43959563,
+            12.32000556
+        ],
+        "text": "Crossing the Po River marked the end of organized resistance in Italy. What followed was a swift collapse of the German defensive line. The Italian campaign became a swift, decisive sweep to the Alps, ending in total collapse. This postcard from Dave's collection marks Venice as the town reached soon after crossing the Po River ",
+        "caption": "Post cards",
+        "image": "images/80_Venice.jpg"
+    },
+    {
+        "id": 82,
+        "title": "Lignano Sabbia d'Ora",
+        "subtitle": "4-May-45",
+        "coords": [
+            45.66820536,
+            13.10727859
+        ],
+        "text": "The Eighth Army proceeded northeast toward Trieste. meeting only minor skirmishs along the way. This postcard from Lignano Sabbia d'Ora was from next town on Dave's journey",
+        "caption": "Post cards",
+        "image": "images/82_Undine.jpg"
+    },
+    {
+        "id": 84,
+        "title": "Udine",
+        "subtitle": "6-May-45",
+        "coords": [
+            46.07158986,
+            13.22734407
+        ],
+        "text": "Dave collected postcards from every town he passed through\u2014without a camera, they were his only way of capturing and preserving those moments. This is the railway station in Udine",
+        "caption": "Post cards",
+        "image": "images/84_Lignano.jpg"
+    },
+    {
+        "id": 86,
+        "title": "Trieste",
+        "subtitle": "8-May-45",
+        "coords": [
+            45.65063026,
+            13.7664945
+        ],
+        "text": "When the 8th Army entered Trieste the end of the war was in sight. They didn\u2019t enter Trieste to fight a battle, but to win the peace. They had to secure the strategic city, prevent Yugoslav annexation and establish Allied control at a critical political moment. Dave remembered it by this postcard",
+        "caption": "Post cards",
+        "image": "images/86_Triest.jpg"
+    },
+    {
+        "id": 87,
+        "title": "Trieste",
+        "subtitle": "8-May-45",
+        "coords": [
+            45.65063026,
+            13.7664945
+        ],
+        "text": "Germany OUT! A newspaper Dave bought on 8 May 1945 in Trieste. News also broke that Benito Mussolini was executed by his fellow Italians on 28 April 1945 , and Adolf Hitler committed suicide on 30 April 1945 . The war was over",
+        "caption": "Newspaper",
+        "image": "images/87_Germany Out - News 8 May 1945.jpg"
+    },
+    {
+        "id": 88,
+        "title": "Cairo",
+        "subtitle": "8-May-45",
+        "coords": [
+            30.04551445,
+            31.23700314
+        ],
+        "text": "The Medal : the Star of Italy was awarded to Dave for his time served in Italy",
+        "caption": "Medal",
+        "image": "images/88_Italy Star - dave.jpg"
+    },
+    {
+        "id": 89,
+        "title": "Cairo-Emplaned for Union",
+        "subtitle": "8-Aug-45",
+        "coords": [
+            30.04551445,
+            31.23700314
+        ],
+        "text": "Demobilised - end of war - Dave earned these 3 medals for his service throughout the war",
+        "caption": "Army cards",
+        "image": "images/89_Dave 1939-1945 Medal (Lion)-3 Medals.jpg"
+    },
+    {
+        "id": 90,
+        "title": "Nairobi",
+        "subtitle": "9-Aug-45",
+        "coords": [
+            -1.29630618,
+            36.82677128
+        ],
+        "text": "His flight on the way home to South Africa, stopped  in Nairobi to re-fuel,  Dave bought this newspaper, and learned that the Atom Bomb had been dropped at Hiroshima.",
+        "caption": "newspaper",
+        "image": "images/90_Kenya African Standard-9 August 1945.jpg"
+    },
+    {
+        "id": 96,
+        "title": "Pretoria",
+        "subtitle": "11-Dec-46",
+        "coords": [
+            -25.7467,
+            28.1881
+        ],
+        "text": "Back in Pretoria, South Africa Dave returned to his job as Bus Driver for the Pretoria City Council, and married Margaret Clara Orr on 11 December 1946",
+        "caption": "marriage Cert",
+        "image": "images/96_Marriage Dave and Peggy.jpg"
+    }
+]

@@ -1,7 +1,7 @@
 // Basic Leaflet story map:
 // - Esri basemap
 // - Leaflet default pins (with shadows)
-// - Loads `data/stops.json` and shows one stop at a time
+// - Loads `data/stops4apr26.json` and shows one stop at a time
 
 let stops = [];
 let currentIndex = 0;
@@ -442,7 +442,7 @@ function closeImageModal() {
 }
 
 function init() {
-    fetch('data/stops.json')
+    fetch('data/stops4apr26.json')
         .then((r) => r.json())
         .then((data) => {
             stops = Array.isArray(data) ? data : [];
@@ -460,7 +460,8 @@ function init() {
             showStop(0, { animate: false, skipMapMove: true });
         })
         .catch(() => {
-            document.getElementById('stop-title').innerText = 'Failed to load data/stops.json';
+            document.getElementById('stop-title').innerText =
+                'Failed to load data/stops4apr26.json';
         });
 }
 

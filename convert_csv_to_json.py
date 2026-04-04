@@ -69,8 +69,8 @@ def csv_to_json(csv_file_path, json_file_path):
 
 if __name__ == "__main__":
     # Allow an explicit CSV path as arg1; otherwise use your default Downloads path.
-    csv_file_path = sys.argv[1] if len(sys.argv) > 1 else r"C:\\Users\\rossa\\Downloads\\Daves_war_data_19mar26(2).csv"
-    json_file_path = os.path.join(os.path.dirname(__file__), 'data', 'stops.json')
+    csv_file_path = sys.argv[1] if len(sys.argv) > 1 else r"C:\\Users\\rossa\\Downloads\\Daves_war_data4apr26.csv"
+    json_file_path = os.path.join(os.path.dirname(__file__), 'data', 'stops4apr26.json')
 
     try:
         csv_to_json(csv_file_path, json_file_path)
