@@ -33,6 +33,7 @@ const modalViewportEl = document.getElementById('image-modal-viewport');
 const modalImgEl = document.getElementById('image-modal-img');
 const modalCloseBtn = document.getElementById('image-modal-close');
 let geojsonLayerGroup = null;
+let geojsonRenderer = null;
 const STOP_ZOOM = 6;
 
 function buildDefaultPinIcon() {
@@ -64,6 +65,7 @@ function initMap(initialCoords) {
 
     map = L.map('map').setView(initialCoords || [30, 31], initialCoords ? 8 : 6);
     geojsonLayerGroup = L.layerGroup().addTo(map);
+    geojsonRenderer = L.canvas({ padding: 0.2 });
 
     L.tileLayer(
         'https://server.arcgisonline.com/ArcGIS/rest/services/World_Street_Map/MapServer/tile/{z}/{y}/{x}',
@@ -222,6 +224,8 @@ function addGeoJsonToMap(geojson, name) {
     // White "casing" underlay
     const casing = L.geoJSON(geojson, {
         filter: isLineOrPoly,
+        renderer: geojsonRenderer,
+        interactive: false,
         style: () => ({
             color: '#ffffff',
             weight: 6,
@@ -237,6 +241,8 @@ function addGeoJsonToMap(geojson, name) {
     // Black dotted line on top
     const dotted = L.geoJSON(geojson, {
         filter: isLineOrPoly,
+        renderer: geojsonRenderer,
+        interactive: false,
         style: () => ({
             color: '#111111',
             weight: 3,
@@ -254,6 +260,8 @@ function addGeoJsonToMap(geojson, name) {
     // Points, if present
     const points = L.geoJSON(geojson, {
         filter: isPoint,
+        renderer: geojsonRenderer,
+        interactive: false,
         pointToLayer: (_feature, latlng) =>
             L.circleMarker(latlng, {
                 radius: 5,
@@ -274,6 +282,7 @@ function addGeoJsonToMap(geojson, name) {
 }
 
 function loadGeoJsonOverlays() {
+    if (geojsonLayerGroup && geojsonLayerGroup.getLayers().length) return;
     // GitHub Pages doesn't provide directory listings, so we use a manifest file.
     // Put your GeoJSON files in `data/geojson/` and add filenames to `data/geojson/index.json`.
     return fetch('data/geojson/index.json')
@@ -319,8 +328,11 @@ function showStop(index, opts) {
     }
 
     if (map) {
-        // Open immediately so the popup is visible as we pan toward the marker.
-        if (stop.marker) stop.marker.openPopup();
+        const isLongLeg = lastShownIndex === 1 && index === 2;
+
+        // Open immediately so the popup is visible as we pan toward the marker,
+        // except for the long-leg animation where we open after the waypoint.
+        if (!isLongLeg && stop.marker) stop.marker.openPopup();
 
         if (skipMapMove) {
             // Popup is already opened.
@@ -328,6 +340,14 @@ function showStop(index, opts) {
             // First render: jump straight to the first stop (image 1 should show on refresh).
             if (lastShownIndex === null || !animate) {
                 map.setView(stop.coords, STOP_ZOOM, { animate: false });
+            } else if (isLongLeg) {
+                animateViaWaypoint(stop.coords, SOMALIA_WAYPOINT, STOP_ZOOM, () => {
+                    if (!stop.marker) return;
+                    // Avoid auto-panning after the animation finishes.
+                    const popup = stop.marker.getPopup && stop.marker.getPopup();
+                    if (popup) popup.options.autoPan = false;
+                    stop.marker.openPopup();
+                });
             } else {
                 animatePanTo(stop.coords, STOP_ZOOM);
             }
@@ -359,30 +379,63 @@ function fitOverviewToStops() {
     map.fitBounds(bounds, { padding: [30, 30], maxZoom: 6 });
 }
 
-function animatePanTo(latlng, zoom) {
+function animatePanTo(latlng, zoom, opts) {
     // Smooth pan/fly to the next point, keeping a more zoomed-out view.
     // Uses a token so rapid clicking doesn't stack animations.
     const myToken = ++transitionToken;
     map.stop();
+    const duration = opts && typeof opts.duration === 'number' ? opts.duration : null;
+    const easeLinearity =
+        opts && typeof opts.easeLinearity === 'number' ? opts.easeLinearity : null;
 
     const currentZoom = map.getZoom();
     if (currentZoom === zoom) {
         map.panTo(latlng, {
             animate: true,
-            duration: 1.8,
-            easeLinearity: 0.35,
+            duration: duration || 1.8,
+            easeLinearity: easeLinearity || 0.35,
             noMoveStart: true
         });
     } else {
         map.flyTo(latlng, zoom, {
             animate: true,
-            duration: 2.2,
-            easeLinearity: 0.35,
+            duration: duration || 2.2,
+            easeLinearity: easeLinearity || 0.35,
             noMoveStart: true
         });
     }
     map.once('moveend', () => {
         if (transitionToken !== myToken) return;
+    });
+}
+
+const SOMALIA_WAYPOINT = [5.0, 46.0];
+
+function animateViaWaypoint(latlng, waypoint, zoom, onDone) {
+    // Special long-leg animation: keep zoom, but pass via a waypoint.
+    const myToken = ++transitionToken;
+    map.stop();
+
+    map.flyTo(waypoint, zoom, {
+        animate: true,
+        duration: 2.6,
+        easeLinearity: 0.3,
+        noMoveStart: true
+    });
+
+    map.once('moveend', () => {
+        if (transitionToken !== myToken) return;
+        map.flyTo(latlng, zoom, {
+            animate: true,
+            duration: 2.6,
+            easeLinearity: 0.3,
+            noMoveStart: true
+        });
+
+        map.once('moveend', () => {
+            if (transitionToken !== myToken) return;
+            if (typeof onDone === 'function') onDone();
+        });
     });
 }
 
