@@ -64,8 +64,8 @@
         "title": "El Alemein",
         "subtitle": "25-Nov-41",
         "coords": [
-            30.84475347,
-            28.94164793
+            30.84510380211687,
+            28.941690769978127
         ],
         "text": "The Operation Crusader uniform patches Dave wore during the build-up of supply lines and the winning of the first battle at El Alemain. The objective of the campaign was to retake Libya and relieve the besieged port of Tobruk from the Italian-German -Axis- forces under General Erwin Rommel. This objective was achieved by 25 Nov 1941.(The hand stitching of his uniform badges indicate that they were made in Egypt and worn in battle)",
         "caption": "Crusader Badge",
@@ -100,8 +100,8 @@
         "title": "Gazala",
         "subtitle": "30-Jun-42",
         "coords": [
-            31.59204253,
-            23.48503074
+            31.601434322013898,
+            23.47598151441319
         ],
         "text": "On 26 May 1942, the Battle of Gazala began. This time the Eighth Army was defeated. Tobruk fell, and 32,000 Allied troops were captured. The Eighth Army retreated eastward and by 30 June 1942, Rommel's Axis forces had pushed the 8th army back to El Alamein again. Here Allied troops are again offloading water to re-stock supplies",
         "caption": "8th Army Clasp",
@@ -112,8 +112,8 @@
         "title": "El Alemein",
         "subtitle": "11-Nov-42",
         "coords": [
-            30.84180761,
-            28.94095283
+            30.845144147869345,
+            28.941360834868718
         ],
         "text": "Months later, on 23 October 1942, the Second Battle of El Alamein began \u2014 the battle that would change everything and last until 11Nov 1942. Under the new command of Lieutenant Montgomery, the Eighth Army launched a massive offensive and won. Here Gen Jan Smuts visits the SA troops in their trademark \"Tin Hats\"",
         "caption": "8th Army Clasp",
@@ -124,8 +124,8 @@
         "title": "",
         "subtitle": "20-Nov-42",
         "coords": [
-            31.3546,
-            27.237545
+            31.2495654585771,
+            27.260884306386647
         ],
         "text": "Mursa Matruh:Following El Alamein, Axis forces retreated rapidly. The British Eighth Army reoccupied Mersa Matruh with only light resistance.",
         "caption": "",
@@ -136,8 +136,8 @@
         "title": "",
         "subtitle": "1-Dec-42",
         "coords": [
-            31.652982,
-            25.904913
+            31.601389460241062,
+            25.90589292612005
         ],
         "text": "Sidi Barrani : Small-scale but tactically important, this battle was  designed to slow the Allied advance and involvied land mines, artillery, and brief armoured clashes",
         "caption": "",
@@ -148,8 +148,8 @@
         "title": "",
         "subtitle": "20-Dec-42",
         "coords": [
-            30.261986,
-            19.188893
+            30.254983798777758,
+            19.189480854585906
         ],
         "text": "El Agheila: This was the first serious defensive stand after the retreat. Rommel attempted to delay the British advance. The British outflanked the position, forcing another withdrawal. Here Rommel is seen indtructing his troops in North Africa.",
         "caption": "",
@@ -160,8 +160,8 @@
         "title": "",
         "subtitle": "1-Mar-43",
         "coords": [
-            33.340813,
-            10.496664
+            33.344987902703856,
+            10.49868641348637
         ],
         "text": "Medenine:  A major turning point. Last Axis offensive in North Africa.  Rommel attempted to strike the British Eighth Army. The attack failed badly due to strong British anti-tank defenses\n",
         "caption": "",
@@ -172,8 +172,8 @@
         "title": "el-Hammah",
         "subtitle": "20-Mar-43",
         "coords": [
-            33.887485,
-            9.795094
+            33.93840825064348,
+            9.962113488542645
         ],
         "text": "On this date, Allied forces (primarily elements of the British Eighth Army) launched probing and preliminary attacks against Axis positions around El Hamma. This action was essentially a testing engagement, helping Montgomery assess the strength of the Mareth Line defences.",
         "caption": "8th Army Clasp",
@@ -184,8 +184,8 @@
         "title": "W\u0101d\u012b al-\u02bfAk\u0101r\u012bt ",
         "subtitle": "6-Apr-43",
         "coords": [
-            34.112678,
-            9.982838
+            34.12824550937528,
+            9.954732010379761
         ],
         "text": "After retreating from the Battle of the Mareth Line, Axis forces made their stand here. At W\u0101d\u012b al-\u02bfAk\u0101r\u012bt (often called the Battle of Akarit) Fighting was intense, especially on key ridges . Despite heavy resistance, Allied troops broke through the defensive line. Here German troops (recognised by their helmet shape) are seen struggling through sand and high winds",
         "caption": "8th Army Clasp",
@@ -196,8 +196,8 @@
         "title": "Enfidha",
         "subtitle": "20-Apr-43",
         "coords": [
-            36.133847,
-            10.378048
+            36.12997785075487,
+            10.407851061770922
         ],
         "text": "This battle took place near the town of Enfidha. Despite determined attacks, Allied forces made limited progress and suffered significant casualties.\nThe battle became largely a stalemate, with heavy fighting continuing for several days.",
         "caption": "8th Army Clasp",
@@ -220,8 +220,8 @@
         "title": "Tunis",
         "subtitle": "15-May-43",
         "coords": [
-            36.8065,
-            10.1815
+            36.806522,
+            10.181621
         ],
         "text": "Journey back to Cairo: After the fall of Tunis in May 1943, the men of the 27th Road Construction Unit began the long return eastward toward Cairo;a journey that was as demanding as any campaign, though far less recorded.",
         "caption": "27th Rd Con Unit",
@@ -232,8 +232,8 @@
         "title": "Sfax(nearGabes)",
         "subtitle": "20-May-43",
         "coords": [
-            34.7406,
-            10.7603
+            34.846523,
+            10.675529
         ],
         "text": "Journey back to Cairo: The men marched through the heat of the day and the cold of the desert nights, often carrying their own gear when transport columns were stretched thin. Progress depended on fuel, serviceable vehicles, and the condition of the roads",
         "caption": "27th Rd Con Unit",
@@ -244,8 +244,8 @@
         "title": "Gabes",
         "subtitle": "24-May-43",
         "coords": [
-            33.8815,
-            10.0982
+            33.82632209286276,
+            10.039493647624212
         ],
         "text": "Journey back to Cairo:   Much of the route retraced the scarred coastline of North Africa, following the same desert roads they had helped to build and maintain during the advance",
         "caption": "27th Rd Con Unit",
@@ -256,8 +256,8 @@
         "title": "Tripoli",
         "subtitle": "27-May-43",
         "coords": [
-            32.8872,
-            13.1913
+            32.85597536276365,
+            13.192036155582757
         ],
         "text": "Journey back to Cairo: Passing back through Tripoli, Benghazi, and Tobruk, the journey became a slow unwinding of the campaign itself. What had once been a desperate westward push was now a weary return,",
         "caption": "27th Rd Con Unit",
@@ -268,8 +268,8 @@
         "title": "El Agheila",
         "subtitle": "30-May-43",
         "coords": [
-            30.2467,
-            19.2047
+            30.256194570589923,
+            19.203902903960433
         ],
         "text": "Journey back to Cairo:  They went back along the very roads they had once laboured to keep open under fire. ",
         "caption": "27th Rd Con Unit",
@@ -280,8 +280,8 @@
         "title": "Benghazi",
         "subtitle": "31-May-43",
         "coords": [
-            32.1167,
-            20.0667
+            32.117256530023525,
+            20.066066161072115
         ],
         "text": "Journey back to Cairo: The road marked by abandoned vehicles, shattered positions, and long stretches of silence broken only by and sand.",
         "caption": "27th Rd Con Unit",
@@ -304,8 +304,8 @@
         "title": "Mersa Matruh",
         "subtitle": "18-Jun-43",
         "coords": [
-            31.3543,
-            27.2373
+            31.249499463968803,
+            27.26058730898218
         ],
         "text": "Journey back to Cairo: Water was rationed carefully, and halts were taken where wells or supply points could be found.",
         "caption": "27th Rd Con Unit",
@@ -328,8 +328,8 @@
         "title": "Cairo",
         "subtitle": "25-Jun-43",
         "coords": [
-            30.0444,
-            31.2357
+            30.04400182,
+            31.23544934
         ],
         "text": "For his service in the 8th Army Dave had earned this Africa Star",
         "caption": "27th Rd Con Unit",
@@ -412,8 +412,8 @@
         "title": "Reggio de Calabria",
         "subtitle": "1-Jun-44",
         "coords": [
-            38.1106545,
-            15.64286765
+            38.100286,
+            15.65516
         ],
         "text": "8th Army troops landed at this port from Alexandria, and so did Dave ( He had witnessed the Eruption of Mount Etna on his voyage) Because he had been in Hospital in Cairo when his unit went to Italy, he caught up with his fellow soldiers (with their trademark Tin Hats)for the first time in Sep 1944 near Rimini (Coriano)",
         "caption": "8th Army Clasp",
@@ -424,8 +424,8 @@
         "title": "Coriano",
         "subtitle": "13-Sep-44",
         "coords": [
-            43.962139,
-            12.60289
+            43.99483389723712,
+            12.619286872831491
         ],
         "text": "The Battle of Coriano was a hard-fought engagement during the Allied advance through northern Italy, forming part of the larger offensive against the Gothic Line which had been defensively set up by the Germans where the area was sown with land mines, laced with barbed wire, and covered by carefully positioned artillery and machine-gun fire.",
         "caption": "8th Army Clasp",
