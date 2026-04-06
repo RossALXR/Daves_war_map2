@@ -7,8 +7,8 @@
             -25.7467,
             28.1881
         ],
-        "text": "Dave\u2019s signed Oath of Attestation records his voluntary enlistment into full-time service with the Union Defence Force, where he swore allegiance to King George VI at the age of 23. Until that moment, he had been employed as a bus driver with the Pretoria City Council.",
-        "caption": "army cards",
+        "text": "Dave\u2019s signed Oath of Attestation records his voluntary enlistment into full-time service with the Union Defence Force, where he swore allegiance to King George VI of England at the age of 23. Until that moment, he had been employed as a bus driver with the Pretoria City Council.",
+        "caption": "Army cards",
         "image": "images/2_Dave-Oath on Attestation-smaller.jpg"
     },
     {
@@ -19,8 +19,8 @@
             -29.8689,
             31.0617
         ],
-        "text": "This is the SS Dempo in Liverpool Dock, England in March 1941, while being converted from a cruise liner to a troop carrier. Dave embarked on her at Durban, South Africa, on 21 April 1941,",
-        "caption": "army cards",
+        "text": "This is the SS Dempo in Liverpool Dock, England in March 1941, while being converted from a cruise liner to a troop carrier. Dave embarked on her at Durban, South Africa, on 21 April 1941.",
+        "caption": "Army cards",
         "image": "images/4_SS Dempo - Liverpool March 1941.jpg"
     },
     {
@@ -32,7 +32,7 @@
             32.55013641
         ],
         "text": "When they disembarked at Port Suez on 6 May 1941, each soldier was issued with a \u201cdog tag.\u201d This is the one Dave wore every day throughout his five years of service. It recorded his personal details and his wishes for burial, with \u201cW.E.S.\u201d indicating his faith as Wesleyan Methodist.",
-        "caption": "army cards",
+        "caption": "Army cards",
         "image": "images/6_Dog Tag - Dave 10.jpg"
     },
     {
@@ -64,8 +64,8 @@
         "title": "El Alemein",
         "subtitle": "25-Nov-41",
         "coords": [
-            30.84510380211687,
-            28.941690769978127
+            30.84475347,
+            28.94164793
         ],
         "text": "The Operation Crusader uniform patches Dave wore during the build-up of supply lines and the winning of the first battle at El Alemain. The objective of the campaign was to retake Libya and relieve the besieged port of Tobruk from the Italian-German -Axis- forces under General Erwin Rommel. This objective was achieved by 25 Nov 1941.(The hand stitching of his uniform badges indicate that they were made in Egypt and worn in battle)",
         "caption": "Crusader Badge",
@@ -79,7 +79,7 @@
             31.601033,
             23.475565
         ],
-        "text": "The 8th Army advanced and re-grouped here to rest and re-stock supplies. Daves uniform badge with crossed rifles indicate that he was a trained infantryman (rifleman) serving in a front-line unit with the S A 1st infantry division of the 8th Army.",
+        "text": "The 8th Army advanced and re-grouped here to rest and re-stock supplies. Daves uniform badge with crossed rifles indicate that he was a trained infantryman (rifleman) serving in a front-line unit with the 27th Road Construction division of the 8th Army.",
         "caption": "8th Army Clasp",
         "image": "images/14_Muskets.jpg"
     },
@@ -92,7 +92,7 @@
             23.475565
         ],
         "text": "Daves letter posted home to his mom via APO (Army Post Office) on 19/5/1942",
-        "caption": "letter to mom",
+        "caption": "Letter to mom",
         "image": "images/16_Letter to mom 19 May 1942.jpg"
     },
     {
@@ -100,8 +100,8 @@
         "title": "Gazala",
         "subtitle": "30-Jun-42",
         "coords": [
-            31.601434322013898,
-            23.47598151441319
+            31.59204253,
+            23.48503074
         ],
         "text": "On 26 May 1942, the Battle of Gazala began. This time the Eighth Army was defeated. Tobruk fell, and 32,000 Allied troops were captured. The Eighth Army retreated eastward and by 30 June 1942, Rommel's Axis forces had pushed the 8th army back to El Alamein again. Here Allied troops are again offloading water to re-stock supplies",
         "caption": "8th Army Clasp",
@@ -112,32 +112,32 @@
         "title": "El Alemein",
         "subtitle": "11-Nov-42",
         "coords": [
-            30.845144147869345,
-            28.941360834868718
+            30.84180761,
+            28.94095283
         ],
-        "text": "Months later, on 23 October 1942, the Second Battle of El Alamein began \u2014 the battle that would change everything and last until 11Nov 1942. Under the new command of Lieutenant Montgomery, the Eighth Army launched a massive offensive and won. Here Gen Jan Smuts visits the SA troops in their trademark \"Tin Hats\"",
+        "text": "Months later, on 23 October 1942, the Second Battle of El Alamein began \u2014 the battle that would change everything and last until 11Nov 1942. Under the new command of Lieutenant Montgomery (Seen here in a tank in North Africa in Nov 1942) , the Eighth Army launched a massive offensive and won. ",
         "caption": "8th Army Clasp",
         "image": "images/20_Montgomery.png"
     },
     {
         "id": 22,
-        "title": "",
+        "title": "Mursa Matruh",
         "subtitle": "20-Nov-42",
         "coords": [
-            31.2495654585771,
-            27.260884306386647
+            31.3546,
+            27.237545
         ],
-        "text": "Mursa Matruh:Following El Alamein, Axis forces retreated rapidly. The British Eighth Army reoccupied Mersa Matruh with only light resistance.",
+        "text": "Mursa Matruh:Following the Allied victory at El Alamein, Axis forces retreated rapidly. The British Eighth Army reoccupied Mersa Matruh with only light resistance. Here Gen Jan Smuts visits the SA troops in their trademark \"Tin Hats\"",
         "caption": "",
         "image": "images/22_Smuts in Western Desert20-23 Nov 1942.jpg"
     },
     {
         "id": 24,
-        "title": "",
+        "title": "Sidi Barrani",
         "subtitle": "1-Dec-42",
         "coords": [
-            31.601389460241062,
-            25.90589292612005
+            31.652982,
+            25.904913
         ],
         "text": "Sidi Barrani : Small-scale but tactically important, this battle was  designed to slow the Allied advance and involvied land mines, artillery, and brief armoured clashes",
         "caption": "",
@@ -145,37 +145,37 @@
     },
     {
         "id": 26,
-        "title": "",
+        "title": "El Agheila",
         "subtitle": "20-Dec-42",
         "coords": [
-            30.254983798777758,
-            19.189480854585906
+            30.261986,
+            19.188893
         ],
-        "text": "El Agheila: This was the first serious defensive stand after the retreat. Rommel attempted to delay the British advance. The British outflanked the position, forcing another withdrawal. Here Rommel is seen indtructing his troops in North Africa.",
+        "text": "El Agheila: This was the first serious defensive stand after the retreat at El Alemain . Rommel attempted to delay the British advance. The British outflanked the position, forcing another withdrawal. Here Rommel is seen instructing his troops in North Africa.",
         "caption": "",
         "image": "images/26_Erdwin Rommel in North Africa.jpg"
     },
     {
         "id": 28,
-        "title": "",
-        "subtitle": "1-Mar-43",
+        "title": "Tripoli",
+        "subtitle": "1-Jan-43",
         "coords": [
-            33.344987902703856,
-            10.49868641348637
+            32.8872,
+            13.1913
         ],
-        "text": "Medenine:  A major turning point. Last Axis offensive in North Africa.  Rommel attempted to strike the British Eighth Army. The attack failed badly due to strong British anti-tank defenses\n",
-        "caption": "",
+        "text": "Tripoli:Continued pressure by the British Eighth Army. Axis forces avoided encirclement but kept retreating. Tripoli fell to the Allies on 23 January 1943.\n\n",
+        "caption": "Tripoli",
         "image": ""
     },
     {
         "id": 30,
-        "title": "el-Hammah",
+        "title": "El-Hammah",
         "subtitle": "20-Mar-43",
         "coords": [
-            33.93840825064348,
-            9.962113488542645
+            33.887485,
+            9.795094
         ],
-        "text": "On this date, Allied forces (primarily elements of the British Eighth Army) launched probing and preliminary attacks against Axis positions around El Hamma. This action was essentially a testing engagement, helping Montgomery assess the strength of the Mareth Line defences.",
+        "text": "On this date, Allied forces (primarily elements of the British Eighth Army) launched probing and preliminary attacks against Axis positions around El Hammah. This action was essentially a testing engagement, helping Montgomery assess the strength of the Mareth Line defences.",
         "caption": "8th Army Clasp",
         "image": ""
     },
@@ -184,8 +184,8 @@
         "title": "W\u0101d\u012b al-\u02bfAk\u0101r\u012bt ",
         "subtitle": "6-Apr-43",
         "coords": [
-            34.12824550937528,
-            9.954732010379761
+            34.112678,
+            9.982838
         ],
         "text": "After retreating from the Battle of the Mareth Line, Axis forces made their stand here. At W\u0101d\u012b al-\u02bfAk\u0101r\u012bt (often called the Battle of Akarit) Fighting was intense, especially on key ridges . Despite heavy resistance, Allied troops broke through the defensive line. Here German troops (recognised by their helmet shape) are seen struggling through sand and high winds",
         "caption": "8th Army Clasp",
@@ -196,8 +196,8 @@
         "title": "Enfidha",
         "subtitle": "20-Apr-43",
         "coords": [
-            36.12997785075487,
-            10.407851061770922
+            36.133847,
+            10.378048
         ],
         "text": "This battle took place near the town of Enfidha. Despite determined attacks, Allied forces made limited progress and suffered significant casualties.\nThe battle became largely a stalemate, with heavy fighting continuing for several days.",
         "caption": "8th Army Clasp",
@@ -220,22 +220,10 @@
         "title": "Tunis",
         "subtitle": "15-May-43",
         "coords": [
-            36.806522,
-            10.181621
+            36.8065,
+            10.1815
         ],
         "text": "Journey back to Cairo: After the fall of Tunis in May 1943, the men of the 27th Road Construction Unit began the long return eastward toward Cairo;a journey that was as demanding as any campaign, though far less recorded.",
-        "caption": "27th Rd Con Unit",
-        "image": ""
-    },
-    {
-        "id": 40,
-        "title": "Sfax(nearGabes)",
-        "subtitle": "20-May-43",
-        "coords": [
-            34.846523,
-            10.675529
-        ],
-        "text": "Journey back to Cairo: The men marched through the heat of the day and the cold of the desert nights, often carrying their own gear when transport columns were stretched thin. Progress depended on fuel, serviceable vehicles, and the condition of the roads",
         "caption": "27th Rd Con Unit",
         "image": ""
     },
@@ -244,10 +232,10 @@
         "title": "Gabes",
         "subtitle": "24-May-43",
         "coords": [
-            33.82632209286276,
-            10.039493647624212
+            33.8815,
+            10.0982
         ],
-        "text": "Journey back to Cairo:   Much of the route retraced the scarred coastline of North Africa, following the same desert roads they had helped to build and maintain during the advance",
+        "text": "Journey back to Cairo: (Tunis to Gabes 270km)  Much of the route retraced the scarred coastline of North Africa, following the same desert roads they had helped to build and maintain during the advance. The men marched through the heat of the day and the cold of the desert nights, often carrying their own gear when transport columns were stretched thin. Progress depended on fuel, serviceable vehicles, and the condition of the roads",
         "caption": "27th Rd Con Unit",
         "image": ""
     },
@@ -256,10 +244,10 @@
         "title": "Tripoli",
         "subtitle": "27-May-43",
         "coords": [
-            32.85597536276365,
-            13.192036155582757
+            32.8872,
+            13.1913
         ],
-        "text": "Journey back to Cairo: Passing back through Tripoli, Benghazi, and Tobruk, the journey became a slow unwinding of the campaign itself. What had once been a desperate westward push was now a weary return,",
+        "text": "Journey back to Cairo: (Gabes to Tripoli 380km) Passing back through Tripoli, Benghazi, and Tobruk, the journey became a slow unwinding of the campaign itself. What had once been a desperate westward push was now a weary return,",
         "caption": "27th Rd Con Unit",
         "image": ""
     },
@@ -268,10 +256,10 @@
         "title": "El Agheila",
         "subtitle": "30-May-43",
         "coords": [
-            30.256194570589923,
-            19.203902903960433
+            30.2467,
+            19.2047
         ],
-        "text": "Journey back to Cairo:  They went back along the very roads they had once laboured to keep open under fire. ",
+        "text": "Journey back to Cairo: (Tripoli to El Agheila 480km) They went back along the very roads they had once laboured to keep open under fire. ",
         "caption": "27th Rd Con Unit",
         "image": ""
     },
@@ -280,56 +268,56 @@
         "title": "Benghazi",
         "subtitle": "31-May-43",
         "coords": [
-            32.117256530023525,
-            20.066066161072115
+            32.1167,
+            20.0667
         ],
-        "text": "Journey back to Cairo: The road marked by abandoned vehicles, shattered positions, and long stretches of silence broken only by and sand.",
+        "text": "Journey back to Cairo:(El Agheila to Benghazi 280km) The road marked by abandoned vehicles, shattered positions, and long stretches of silence broken only by and sand.",
         "caption": "27th Rd Con Unit",
         "image": ""
     },
     {
         "id": 50,
         "title": "Tobruk",
-        "subtitle": "10-Jun-43",
+        "subtitle": "15-Jun-43",
         "coords": [
             32.0836,
             23.9764
         ],
-        "text": "Journey back to Cairo: By truck where vehicles were available, and on foot when they were not, the unit moved in stages through a landscape still marked by war",
+        "text": "Journey back to Cairo: (Benghazi to Tobruk 400km) By truck where vehicles were available, and on foot when they were not, the unit moved in stages through a landscape still marked by war",
         "caption": "27th Rd Con Unit",
         "image": ""
     },
     {
         "id": 54,
         "title": "Mersa Matruh",
-        "subtitle": "18-Jun-43",
+        "subtitle": "20-Jun-43",
         "coords": [
-            31.249499463968803,
-            27.26058730898218
+            31.3543,
+            27.2373
         ],
-        "text": "Journey back to Cairo: Water was rationed carefully, and halts were taken where wells or supply points could be found.",
+        "text": "Journey back to Cairo:(Tobruk to Mursa Matruh 360km) Water was rationed carefully, and halts were taken where wells or supply points could be found.",
         "caption": "27th Rd Con Unit",
         "image": ""
     },
     {
         "id": 56,
         "title": "Alexandria",
-        "subtitle": "23-Jun-43",
+        "subtitle": "25-Jun-43",
         "coords": [
             31.2001,
             29.9187
         ],
-        "text": "Journey back to Cairo: By the time they reached Alexandria and finally Cairo, the journey had become a test of stamina and discipline rather than combat",
+        "text": "Journey back to Cairo:(Mursa Matruh to Alexanderia 260km) By the time they reached Alexandria and finally Cairo, the journey had become a test of stamina and discipline rather than combat",
         "caption": "27th Rd Con Unit",
         "image": ""
     },
     {
         "id": 58,
         "title": "Cairo",
-        "subtitle": "25-Jun-43",
+        "subtitle": "30-Jun-43",
         "coords": [
-            30.04400182,
-            31.23544934
+            30.0444,
+            31.2357
         ],
         "text": "For his service in the 8th Army Dave had earned this Africa Star",
         "caption": "27th Rd Con Unit",
@@ -338,7 +326,7 @@
     {
         "id": 60,
         "title": "Khatatba",
-        "subtitle": "26-Jun-43",
+        "subtitle": "8-Jul-43",
         "coords": [
             30.525,
             30.82
@@ -412,8 +400,8 @@
         "title": "Reggio de Calabria",
         "subtitle": "1-Jun-44",
         "coords": [
-            38.100286,
-            15.65516
+            38.1106545,
+            15.64286765
         ],
         "text": "8th Army troops landed at this port from Alexandria, and so did Dave ( He had witnessed the Eruption of Mount Etna on his voyage) Because he had been in Hospital in Cairo when his unit went to Italy, he caught up with his fellow soldiers (with their trademark Tin Hats)for the first time in Sep 1944 near Rimini (Coriano)",
         "caption": "8th Army Clasp",
@@ -424,8 +412,8 @@
         "title": "Coriano",
         "subtitle": "13-Sep-44",
         "coords": [
-            43.99483389723712,
-            12.619286872831491
+            43.962139,
+            12.60289
         ],
         "text": "The Battle of Coriano was a hard-fought engagement during the Allied advance through northern Italy, forming part of the larger offensive against the Gothic Line which had been defensively set up by the Germans where the area was sown with land mines, laced with barbed wire, and covered by carefully positioned artillery and machine-gun fire.",
         "caption": "8th Army Clasp",
@@ -452,7 +440,7 @@
             11.618976
         ],
         "text": "Dave kept this leaflet which was handed out to soldiers for encouragement to push accross the Po River. The Po River was the last major natural barrier in Italy. Allied engineers launched rapid assault crossings using boats and pontoon bridges.Crossing points were established near Ferrara and other sectors. Air superiority from the Allied Air Forces disrupted German withdrawal routes",
-        "caption": "Prpaganda leaflet",
+        "caption": "Propaganda leaflet",
         "image": "images/78_Po River is waiting for You 20.jpg"
     },
     {
