@@ -306,12 +306,30 @@ function updateNav() {
     document.getElementById('next').disabled = currentIndex >= stops.length - 1;
 }
 
+function escapeHtml(value) {
+    return String(value)
+        .replace(/&/g, '&amp;')
+        .replace(/</g, '&lt;')
+        .replace(/>/g, '&gt;')
+        .replace(/"/g, '&quot;')
+        .replace(/'/g, '&#39;');
+}
+
+function isBattleStop(stop) {
+    return !!(stop && typeof stop.activity === 'string' && stop.activity.trim().toUpperCase() === 'BATTLE');
+}
+
+function buildStopTitle(stop) {
+    const title = stop && stop.title ? String(stop.title) : '';
+    return isBattleStop(stop) ? `💥 ${title}` : title;
+}
+
 function showStop(index, opts) {
     const animate = !(opts && opts.animate === false);
     const skipMapMove = !!(opts && opts.skipMapMove);
     const stop = stops[index];
 
-    document.getElementById('stop-title').innerText = stop.title || '';
+    document.getElementById('stop-title').innerText = buildStopTitle(stop);
     document.getElementById('stop-caption').innerText = stop.caption || '';
     document.getElementById('stop-description').innerText = stop.text || '';
     document.getElementById('stop-date').innerText = stop.subtitle || '';
@@ -444,7 +462,9 @@ function addMarkers() {
 
     stops.forEach((stop) => {
         const marker = L.marker(stop.coords, { icon: defaultPinIcon }).addTo(map);
-        marker.bindPopup(`<strong>${stop.title || ''}</strong><br>${stop.subtitle || ''}`);
+        const popupTitle = escapeHtml(buildStopTitle(stop));
+        const popupSubtitle = escapeHtml(stop.subtitle || '');
+        marker.bindPopup(`<strong>${popupTitle}</strong><br>${popupSubtitle}`);
         stop.marker = marker;
         markers.push(marker);
     });

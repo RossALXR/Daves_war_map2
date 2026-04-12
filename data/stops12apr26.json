@@ -9,6 +9,7 @@
         ],
         "text": "Dave\u2019s signed \"Oath of Attestation\" records his voluntary enlistment into full-time service with the Union Defence Force. He swore allegiance to King George VI of England at the age of 23. Until that moment, he had been employed as a bus driver with the Pretoria City Council.",
         "caption": "Info from Army cards",
+        "activity": "JOURNEY",
         "image": "images/2_Dave-Oath on Attestation-smaller.jpg"
     },
     {
@@ -21,6 +22,7 @@
         ],
         "text": "This ship is the SS Dempo in Liverpool Dock, England, in March 1941, while being converted from a cruise liner to a troop carrier. Dave embarked on her at Durban, South Africa, on 21 April 1941.",
         "caption": "Info from Army cards",
+        "activity": "JOURNEY",
         "image": "images/4_SS Dempo - Liverpool March 1941.jpg"
     },
     {
@@ -33,6 +35,7 @@
         ],
         "text": "When they disembarked at Port Suez on 6 May 1941, each soldier was issued with a \u201cdog tag.\u201d This is the one Dave wore every day throughout his five years of service. It recorded his personal details and his wishes for burial, with \u201cW.E.S.\u201d indicating his faith as Wesleyan Methodist.",
         "caption": "Info from Army cards",
+        "activity": "JOURNEY",
         "image": "images/6_Dog Tag - Dave 10.jpg"
     },
     {
@@ -45,6 +48,7 @@
         ],
         "text": "In Sep 1941 the 8th Army headquarters was established in Cairo, and Dave was assigned to the Eighth Army- This is his uniform Clasp ",
         "caption": "8th Army Clasp",
+        "activity": "JOURNEY",
         "image": "images/8_8th Army Clasp.jpg"
     },
     {
@@ -57,6 +61,7 @@
         ],
         "text": "During a short visit to Alexandria, before heading into battle Dave sent this photo to his mom. She noted on the back that she  \"received it from Alexandria on 22/11/41\" in Pretoria, South Africa",
         "caption": "Photo sent to Mom",
+        "activity": "JOURNEY",
         "image": "images/10_Dave -Alexandria his mom received 22-11-1941.jpg"
     },
     {
@@ -69,6 +74,7 @@
         ],
         "text": "The Operation Crusader uniform patches Dave wore during the build-up of supply lines and the winning of the first battle at El Alemain. The objective of the campaign was to retake Libya and relieve the besieged port of Tobruk from the Italian-German -Axis- forces under General Erwin Rommel. This objective was achieved by 25 Nov 1941.(The hand stitching of his uniform badges indicate that they were made in Egypt and worn in battle)",
         "caption": "\ud83d\udca51st Battle of El Alemain",
+        "activity": "BATTLE",
         "image": "images/12_Uniform Badges- Operation Crusader.jpg"
     },
     {
@@ -81,6 +87,7 @@
         ],
         "text": "The 8th Army advanced and re-grouped here to rest and re-stock supplies. Daves uniform badge with crossed rifles indicate that he was a trained infantryman (rifleman) serving in a front-line unit with the 27th Road Construction division of the 8th Army.",
         "caption": "Crossed rifles badge,",
+        "activity": "JOURNEY",
         "image": "images/14_Muskets.jpg"
     },
     {
@@ -93,6 +100,7 @@
         ],
         "text": "Daves letter posted home to his mom via APO (Army Post Office) on 19/5/1942, a week before the 8th Army was defeat at the battle of Gazala and they retreated back to El Alemain.",
         "caption": "Letter to mom",
+        "activity": "JOURNEY",
         "image": "images/16_Letter to mom 19 May 1942.jpg"
     },
     {
@@ -105,6 +113,7 @@
         ],
         "text": "On 26 May 1942, the Battle of Gazala began. This time the Eighth Army was defeated. Tobruk fell, and 32,000 Allied troops were captured. The Eighth Army retreated eastward and by 30 June 1942, Rommel's Axis forces had pushed the 8th army all the way back to El Alamein . Here Allied troops are offloading water to re-stock supplies",
         "caption": "\ud83d\udca5Battle of Gazala",
+        "activity": "BATTLE",
         "image": "images/18_Solum Bay Offloading water for supply lines.jpg"
     },
     {
@@ -117,6 +126,7 @@
         ],
         "text": "Months later, on 23 October 1942, the Second Battle of El Alamein began \u2014 the battle that would change everything and last until 11Nov 1942. Under the new command of Lieutenant Montgomery (Seen here in a tank in North Africa in Nov 1942) , the Eighth Army launched a massive offensive and won. ",
         "caption": "\ud83d\udca52nd Battle of El Alemain",
+        "activity": "BATTLE",
         "image": "images/20_Montgomery.png"
     },
     {
@@ -129,6 +139,7 @@
         ],
         "text": "Mursa Matruh:Following the Allied victory at El Alamein, Axis forces retreated rapidly. The British Eighth Army reoccupied Mersa Matruh with only light resistance. Here Gen Jan Smuts visits the SA troops in their trademark \"Tin Hats\"",
         "caption": "\ud83d\udca5Battle of Mursa Matruh",
+        "activity": "BATTLE",
         "image": "images/22_Smuts in Western Desert20-23 Nov 1942.jpg"
     },
     {
@@ -141,6 +152,7 @@
         ],
         "text": "Sidi Barrani : Small-scale but tactically important, this battle was  designed to slow the Allied advance and involvied land mines, artillery, and brief armoured clashes",
         "caption": "\ud83d\udca5Battle of Sidi Barrani",
+        "activity": "BATTLE",
         "image": "images/24_Tanks used by the allied troops in the retreat from Tobruk in 1941..jpg"
     },
     {
@@ -153,6 +165,7 @@
         ],
         "text": "El Agheila: This was the first serious defensive stand after the retreat at El Alemain . Rommel attempted to delay the British advance. The British outflanked the position, forcing another withdrawal. Here Rommel is seen instructing his troops in North Africa.",
         "caption": "\ud83d\udca5Battle of El Ageila",
+        "activity": "BATTLE",
         "image": "images/26_Erdwin Rommel in North Africa.jpg"
     },
     {
@@ -165,6 +178,7 @@
         ],
         "text": "Tripoli:Continued pressure was applied by the British Eighth Army. Axis forces avoided encirclement but kept retreating. Tripoli fell to the Allies on 23 January 1943.\n\n",
         "caption": "\ud83d\udca5Battle of El Tripoli",
+        "activity": "BATTLE",
         "image": ""
     },
     {
@@ -177,6 +191,7 @@
         ],
         "text": "On this date, Allied forces (primarily elements of the British Eighth Army) launched probing and preliminary attacks against Axis positions around El Hammah. This action was essentially a testing engagement, helping Montgomery assess the strength of the Mareth Line defences that Axis forces had put in place.",
         "caption": "\ud83d\udca5Battle of El-Hammah",
+        "activity": "BATTLE",
         "image": ""
     },
     {
@@ -189,6 +204,7 @@
         ],
         "text": "After retreating from the Battle of the Mareth Line, Axis forces made their stand here. At W\u0101d\u012b al-\u02bfAk\u0101r\u012bt (often called the Battle of Akarit) Fighting was intense, especially on key ridges . Despite heavy resistance, Allied troops broke through the defensive line. Here German troops (recognised by their helmet shape) are seen struggling through sand and high winds",
         "caption": "\ud83d\udca5Battle of Akarit",
+        "activity": "BATTLE",
         "image": "images/32_German Soldiers struggling against wind and sand.jpg"
     },
     {
@@ -201,6 +217,7 @@
         ],
         "text": "This battle took place near the town of Enfidha. Despite determined attacks, Allied forces made limited progress and suffered significant casualties.\nThe battle became largely a stalemate, with heavy fighting continuing for several days.",
         "caption": "\ud83d\udca5Battle of Enfidha",
+        "activity": "BATTLE",
         "image": ""
     },
     {
@@ -213,6 +230,7 @@
         ],
         "text": "The fighting occurred along the Medjerda River valley. The Allied forces broke through Axis defenses along the Medjerda. This advance contributed directly to the fall of Tunis on 7 May 1943.\nWithin days, all Axis forces in North Africa surrendered (around 13 May 1943).",
         "caption": "\ud83d\udca5Battle of Medjerda",
+        "activity": "BATTLE",
         "image": ""
     },
     {
@@ -225,6 +243,7 @@
         ],
         "text": "The fighting around Tunis in May 1943 was the final act of the North African campaign.After the fall of Tunis, the men of the 27th Road Construction Unit began the long return eastward toward Cairo\u2014a journey that was as demanding as any campaign, though far less recorded.",
         "caption": "\ud83d\udca5Battle of Tunis",
+        "activity": "BATTLE",
         "image": ""
     },
     {
@@ -237,6 +256,7 @@
         ],
         "text": "Tunis to Gabes 270km : Much of the route retraced the scarred coastline of North Africa, following the same desert roads they had helped to build and maintain during the advance. The men marched through the heat of the day and the cold of the desert nights, often carrying their own gear when transport columns were stretched thin. Progress depended on fuel, serviceable vehicles, and the condition of the roads",
         "caption": "Journey back to Cairo",
+        "activity": "JOURNEY",
         "image": ""
     },
     {
@@ -249,6 +269,7 @@
         ],
         "text": "Gabes to Tripoli 380km: Passing back through Tripoli, Benghazi, and Tobruk, the journey became a slow unwinding of the campaign itself. What had once been a desperate westward push was now a weary return,",
         "caption": "Journey back to Cairo",
+        "activity": "JOURNEY",
         "image": ""
     },
     {
@@ -261,6 +282,7 @@
         ],
         "text": "Tripoli to El Agheila 480km: They went back along the very roads they had once laboured to keep open under fire. ",
         "caption": "Journey back to Cairo",
+        "activity": "JOURNEY",
         "image": ""
     },
     {
@@ -273,6 +295,7 @@
         ],
         "text": "El Agheila to Benghazi 280km: The road marked by abandoned vehicles, shattered positions, and long stretches of silence broken only by and sand.",
         "caption": "Journey back to Cairo",
+        "activity": "JOURNEY",
         "image": ""
     },
     {
@@ -285,6 +308,7 @@
         ],
         "text": "Benghazi to Tobruk 400km: By truck where vehicles were available, and on foot when they were not, the unit moved in stages through a landscape still marked by war",
         "caption": "Journey back to Cairo",
+        "activity": "JOURNEY",
         "image": ""
     },
     {
@@ -297,6 +321,7 @@
         ],
         "text": "Tobruk to Mursa Matruh 360km:  Water was rationed carefully, and halts were taken where wells or supply points could be found.",
         "caption": "Journey back to Cairo",
+        "activity": "JOURNEY",
         "image": ""
     },
     {
@@ -309,6 +334,7 @@
         ],
         "text": "Mursa Matruh to Alexanderia 260km:  By the time they reached Alexandria and finally Cairo, the journey had become a test of stamina and discipline rather than combat",
         "caption": "Journey back to Cairo",
+        "activity": "JOURNEY",
         "image": ""
     },
     {
@@ -321,6 +347,7 @@
         ],
         "text": "For his service in the 8th Army Dave had earned this Africa Star. The Africa Star was awarded for operational service in the North African theatre, where Allied soldiers endured extreme desert conditions while fighting to defeat Axis forces and secure control of vital Mediterranean and Middle Eastern supply routes between 1940 and 1943.",
         "caption": "Medal Awarded",
+        "activity": "JOURNEY",
         "image": "images/58_Africa Star.jpg"
     },
     {
@@ -333,6 +360,7 @@
         ],
         "text": "For his service in Africa, Dave had earned this  Africa Service Medal. The Africa Service Medal was awarded to members of the Union Defence Forces for voluntary full-time service during the Second World War, recognising their commitment to the defence of South Africa and their contribution to Allied operations both at home and in active theatres of war.",
         "caption": "Medal awarded",
+        "activity": "JOURNEY",
         "image": "images/60_Dave- Africa Service Medal.jpg"
     },
     {
@@ -345,6 +373,7 @@
         ],
         "text": "Dave embarked at Port Suez for Durban on The Home Exchange Program. During this leave he had his Photo taken at a Pretoria photographer - Wearing his Operation crusader uniform Badge",
         "caption": "Info from Army cards",
+        "activity": "JOURNEY",
         "image": "images/62_Dave -Scan.jpg"
     },
     {
@@ -357,6 +386,7 @@
         ],
         "text": "On 6 November 1943 Dave disembarked at Port Suez from SS Duchess of Richmond (from Durban) after Home Leave. Having stopped at Madagascar on his journeys to and from home leave, he was able to get this 5Franc note and keep it as a souvenir",
         "caption": "Info from Army cards",
+        "activity": "JOURNEY",
         "image": "images/64_Madagascan Note.jpg"
     },
     {
@@ -369,6 +399,7 @@
         ],
         "text": "He was transferred to Citizen Military to prepare to leave for Italy, and he bought an Egypt keepsake",
         "caption": "Info from Army cards",
+        "activity": "JOURNEY",
         "image": "images/66_Egypt 1943.jpg"
     },
     {
@@ -381,6 +412,7 @@
         ],
         "text": "Dave was admitted to Hospital No5 after Accidental Injury-possible motor bike accident. Six months earlier In June 1943 he requested a transfer to the South African Engineering Corps as a Sapper. This lowered his rank, but family stories suggest that it allowed him to become, an unofficial dispatch rider. Here is an example of the bikes that were used. The riders were expected to maintain and repair the bikes in all conditions",
         "caption": "Info from Army cards",
+        "activity": "JOURNEY",
         "image": "images/68_Dispatch Rider delivering a message.jpg"
     },
     {
@@ -393,6 +425,7 @@
         ],
         "text": "Discharged from Hospital to Base and again prepared to leave for Italy",
         "caption": "Info from Army cards",
+        "activity": "JOURNEY",
         "image": ""
     },
     {
@@ -405,6 +438,7 @@
         ],
         "text": "8th Army troops landed at this port from Alexandria, and so did Dave ( He had witnessed the Eruption of Mount Etna on his voyage) Because he had been in Hospital in Cairo when his unit went to Italy, he caught up with his fellow soldiers (with their trademark Tin Hats)for the first time in Sep 1944 near Rimini (Coriano)",
         "caption": "8th Army Clasp",
+        "activity": "JOURNEY",
         "image": "images/72_SA Soldiers in Italy.jpg"
     },
     {
@@ -417,6 +451,7 @@
         ],
         "text": "The Battle of Coriano was a hard-fought engagement during the Allied advance through northern Italy, forming part of the larger offensive against the Gothic Line which had been defensively set up by the Germans where the area was sown with land mines, laced with barbed wire, and covered by carefully positioned artillery and machine-gun fire.",
         "caption": "\ud83d\udca5Battle of Coriano",
+        "activity": "BATTLE",
         "image": "images/74_eighth-army-advance-British-tank-gun-River-Foglia-Italy-September-1944.webp"
     },
     {
@@ -429,6 +464,7 @@
         ],
         "text": "The Allied Army Base was in the Emelia Romano Region where Allied soldiers prepared the pontoon bridge they used to cross the Po river (This picture is from an article in Dave's copy of the 8th Army Newspaper). Both sides had to wait out the Italian winter between Oct 1944 and Mar 1945. This was the area Dave visited with his family in 1984, but was disappointed not to recocnise the small towns. ",
         "caption": "Pontoon Bridge ",
+        "activity": "JOURNEY",
         "image": "images/76_Pontoon bridge over the Po River- from 8Army News.jpg"
     },
     {
@@ -441,6 +477,7 @@
         ],
         "text": "Dave kept this leaflet which was handed out to soldiers for encouragement to push accross the Po River. The Po River was the last major natural barrier in Italy. Allied engineers launched rapid assault crossings using boats and pontoon bridges.The fighting at the Battle of the Po River was important, but. not classified as a single battle. Air superiority from the Allied Air Forces disrupted German withdrawal routes.",
         "caption": "\ud83d\udca5Battle for the Po River",
+        "activity": "BATTLE",
         "image": "images/78_Po River is waiting for You 20.jpg"
     },
     {
@@ -453,6 +490,7 @@
         ],
         "text": "Crossing the Po River marked the end of organized resistance in Italy. What followed was a swift collapse of the German defensive line. The Italian campaign became a swift, decisive sweep to the Alps, ending in total collapse. This postcard from Dave's collection marks Venice as the town reached soon after crossing the Po River ",
         "caption": "Post cards",
+        "activity": "JOURNEY",
         "image": "images/80_Venice.jpg"
     },
     {
@@ -465,6 +503,7 @@
         ],
         "text": "Dave collected postcards from every town he passed through\u2014without a camera, they were his only way of capturing and preserving those moments. This is the railway station in Udine",
         "caption": "Post cards",
+        "activity": "JOURNEY",
         "image": "images/82_Undine.jpg"
     },
     {
@@ -477,6 +516,7 @@
         ],
         "text": "The Eighth Army proceeded northeast toward Trieste. meeting only minor skirmishs along the way. This postcard from Lignano Sabbia d'Ora was from next town on Dave's journey",
         "caption": "Post cards",
+        "activity": "JOURNEY",
         "image": "images/84_Lignano.jpg"
     },
     {
@@ -489,6 +529,7 @@
         ],
         "text": "When the 8th Army entered Trieste the end of the war was in sight. They didn\u2019t enter Trieste to fight a battle, but to win the peace. They had to secure the strategic city, prevent Yugoslav annexation and establish Allied control by negotiation at a critical political moment. Dave remembered it by this postcard",
         "caption": "Post cards",
+        "activity": "JOURNEY",
         "image": "images/86_Triest.jpg"
     },
     {
@@ -501,6 +542,7 @@
         ],
         "text": "Germany OUT! A newspaper Dave bought on 8 May 1945 in Trieste. News also broke that Benito Mussolini was executed by his fellow Italians on 28 April 1945 , and Adolf Hitler committed suicide on 30 April 1945 . The war was over",
         "caption": "Newspaper",
+        "activity": "JOURNEY",
         "image": "images/87_Germany Out - News 8 May 1945.jpg"
     },
     {
@@ -513,6 +555,7 @@
         ],
         "text": "The Star of Italy was awarded to Dave for his time served in Italy. It was awarded to Allied servicemen and women who took part in the operational campaign in Italy during the Second World War. ",
         "caption": "Medal",
+        "activity": "JOURNEY",
         "image": "images/88_Italy Star - dave.jpg"
     },
     {
@@ -525,6 +568,7 @@
         ],
         "text": "After Demobilisation, Dave was awarded 4 these items, they all bear testament to his service away from home for the duration of the war.  1. 1939-1945 War Medal (eaturing a lion standing over a defeated dragon) was awarded to full-time personnel of the Armed Forces of the British Commonwealth. 2.1939-1945 Star was awarded to Members of the British and Commonwealth armed forces who completed at least 6 months operational service. 3. 1939-1945 Defence Medal for least 3 years service to the UK. 4. Five Chevrons indicate 5 years overseas service.\n",
         "caption": "Medals and chevron badge",
+        "activity": "JOURNEY",
         "image": "images/89_Dave 1939-1945 Medal (Lion)-3 Medals.jpg"
     },
     {
@@ -537,6 +581,7 @@
         ],
         "text": "His flight on the way home to South Africa, stopped  in Nairobi to re-fuel,  Dave bought this newspaper, and learned that the Atom Bomb had been dropped at Hiroshima.",
         "caption": "Newspaper",
+        "activity": "JOURNEY",
         "image": "images/90_Kenya African Standard-9 August 1945.jpg"
     },
     {
@@ -549,6 +594,7 @@
         ],
         "text": "Back in Pretoria, South Africa Dave returned to his job as Bus Driver for the Pretoria City Council, and married Margaret Clara Orr on 11 December 1946. Dave's mother, Mabel Blancehe Alexander and (Margaret) Peggy's Father Robert Orr signed as witnesses to the marriage",
         "caption": "Marriage Certificate",
+        "activity": "",
         "image": "images/96_Marriage Dave and Peggy.jpg"
     }
 ]

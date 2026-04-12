@@ -26,6 +26,16 @@ def csv_to_json(csv_file_path, json_file_path):
         for stop_id in images_by_id:
             images_by_id[stop_id].sort(key=lambda s: s.lower())
 
+    def get_field(row, headers, *names):
+        if not headers:
+            return ""
+        header_map = {h.strip().lower(): h for h in headers}
+        for name in names:
+            key = header_map.get(name.strip().lower())
+            if key and key in row:
+                return row.get(key, "")
+        return ""
+
     # Read the CSV file
     with open(csv_file_path, mode='r', encoding='utf-8') as csv_file:
         csv_reader = csv.DictReader(csv_file)
@@ -33,8 +43,9 @@ def csv_to_json(csv_file_path, json_file_path):
 
         # Check if required columns exist
         required_columns = ["ID", "DATE", "PLACE", "Narrative", "CLUE"]
+        headers_lower = {h.strip().lower() for h in headers} if headers else set()
         for column in required_columns:
-            if column not in headers:
+            if column.strip().lower() not in headers_lower:
                 raise KeyError(f"Missing required column: {column}")
 
         # Support either X/Y (older) or x/y (newer) coordinate columns.
@@ -44,9 +55,10 @@ def csv_to_json(csv_file_path, json_file_path):
             raise KeyError("Missing required coordinate columns: X/Y or x/y")
 
         for row in csv_reader:
-            stop_id = int(row["ID"])
+            stop_id = int(get_field(row, headers, "ID"))
             x_value = row["X"] if has_upper_xy else row["x"]
             y_value = row["Y"] if has_upper_xy else row["y"]
+            activity_value = get_field(row, headers, "Activity", "ACTIVITY")
 
             image_name = ""
             if stop_id in images_by_id and images_by_id[stop_id]:
@@ -55,11 +67,12 @@ def csv_to_json(csv_file_path, json_file_path):
             # Convert each row into a dictionary and append to the data list
             data.append({
                 "id": stop_id,
-                "title": row["PLACE"],
-                "subtitle": row["DATE"],
+                "title": get_field(row, headers, "PLACE"),
+                "subtitle": get_field(row, headers, "DATE"),
                 "coords": [float(y_value), float(x_value)],
-                "text": row["Narrative"],
-                "caption": row["CLUE"],
+                "text": get_field(row, headers, "Narrative"),
+                "caption": get_field(row, headers, "CLUE"),
+                "activity": activity_value,
                 "image": image_name
             })
 
@@ -69,10 +82,19 @@ def csv_to_json(csv_file_path, json_file_path):
 
 if __name__ == "__main__":
     # Allow an explicit CSV path as arg1; otherwise use your default Downloads path.
-    csv_file_path = sys.argv[1] if len(sys.argv) > 1 else r"C:\\Users\\rossa\\Downloads\\Daves_war_data4apr26(2).csv"
-    json_file_path = os.path.join(os.path.dirname(__file__), 'data', 'stops4apr26.json')
+    csv_file_path = sys.argv[1] if len(sys.argv) > 1 else r"C:\\Users\\rossa\\Downloads\\Daves_war_data4apr26(3).csv"
+    json_file_path = sys.argv[2] if len(sys.argv) > 2 else os.path.join(os.path.dirname(__file__), 'data', 'stops4apr26.json')
 
     try:
+        output_dir = os.path.dirname(json_file_path) or "."
+        os.makedirs(output_dir, exist_ok=True)
+        if os.path.exists(json_file_path):
+            base_name = os.path.basename(json_file_path)
+            timestamp = __import__("datetime").datetime.now().strftime("%Y%m%d-%H%M%S")
+            backup_name = f"{base_name}.bak-{timestamp}"
+            backup_path = os.path.join(output_dir, backup_name)
+            os.rename(json_file_path, backup_path)
+
         csv_to_json(csv_file_path, json_file_path)
         print(f"Data successfully converted from {csv_file_path} to {json_file_path}")
     except KeyError as e:
